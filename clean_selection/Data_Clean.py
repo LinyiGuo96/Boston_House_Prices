@@ -5,12 +5,15 @@ os.getcwd()
 os.chdir('Boston_House_Prices')
 
 input = pd.read_csv('data/train.csv')
+test0 = pd.read_csv('data/test.csv')
+sample_sumbission = pd.read_csv('data/sample_submission.csv')
 
 input.head()
 
 pd.options.display.width
-pd.set_option('display.width', 300)
-pd.set_option('display.max_columns',10)
+pd.set_option('display.width', 100)
+#pd.set_option('display.max_columns',10)
+pd.set_option('display.max_columns', None)
 
 input.head()
 
@@ -43,6 +46,11 @@ X_train.shape # (1022, 80)
 X_test.shape # (438, 80)
 
 
+
+# further data cleaning
+
+from sklearn.preprocessing import StandardScaler
+import numpy as np
 
 
 
