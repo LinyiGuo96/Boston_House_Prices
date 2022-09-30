@@ -15,3 +15,14 @@ jupyter notebook --notebook-dir C:/users/lincoln
 `del` 
 
 
+- Cleaning
+- Feature engineering
+- Feature transformations
+- Feature selection
+- Encoding
+- Scaling
+- Target transformation
+- Model selection
+- Hyperparameter optimization
+- Ensembling
+
