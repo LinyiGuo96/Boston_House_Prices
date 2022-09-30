@@ -26,3 +26,19 @@ jupyter notebook --notebook-dir C:/users/lincoln
 - Hyperparameter optimization
 - Ensembling
 
+
+`train.isna().sum()`
+
+`pd.concat([table1, table2], axis = 0)`
+
+`table.select_dtypes(np.number)`
+
+`data1 = data.copy()`
+
+
+
+
+
+
+
+
