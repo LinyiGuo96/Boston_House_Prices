@@ -35,6 +35,15 @@ jupyter notebook --notebook-dir C:/users/lincoln
 
 `data1 = data.copy()`
 
+`np.log1p()`: log(x+1)
+
+log transformation: skewed data
+
+sin()/cos() transformation: for months, cause months are like a cycle, that is, Dec (12) should be next to Jan (1), otherwise models will think 12 (Dec) is greater than 1 (Jan)
+
+![img.png](img.png)
+
+
 
 
 
