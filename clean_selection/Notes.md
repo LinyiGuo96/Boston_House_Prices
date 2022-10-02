@@ -53,7 +53,9 @@ sin()/cos() transformation: for months, cause months are like a cycle, that is, 
 `from pycaret.regression import setup, compare_models`
 
  
+**Bagging Ensemble**
 
+I have learned(heard) about bagging(ensembling) before, the idea is to use several model in parallel to prediction. But I haven't seen anyone use this method in practice, it's a good chance to learn it by this exercise.
 
 
 
