@@ -57,5 +57,18 @@ sin()/cos() transformation: for months, cause months are like a cycle, that is, 
 
 I have learned(heard) about bagging(ensembling) before, the idea is to use several model in parallel to prediction. But I haven't seen anyone use this method in practice, it's a good chance to learn it by this exercise.
 
+Add weights to different models -> **Question: A better way to determine the weights?**
+
+## Feature Engineering
+
+This means we can create some new features by using the existing features. For example, use the total price of a house divided by the lot area, to get the unit price.
+
+
+## Hyperparameter Optimization
+
+[Optuna](https://optuna.org/)
+
+
+
 
 
