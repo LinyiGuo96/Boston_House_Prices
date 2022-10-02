@@ -29,7 +29,7 @@ jupyter notebook --notebook-dir C:/users/lincoln
 
 `train.isna().sum()`
 
-`pd.concat([table1, table2], axis = 0)`
+`pd.concat([table1, table2], axis = 0).reset_index(drop=True)` 
 
 `table.select_dtypes(np.number)`
 
@@ -44,9 +44,15 @@ sin()/cos() transformation: for months, cause months are like a cycle, that is, 
 ![img.png](img.png)
 
 
+## **pycaret** library
 
+`!pip install -q pycaret`
 
+**Model selection**
 
+`from pycaret.regression import setup, compare_models`
+
+ 
 
 
 
