@@ -44,4 +44,6 @@ test.shape
 
 
 
-
+a = 123
+b = a
+print(b)
