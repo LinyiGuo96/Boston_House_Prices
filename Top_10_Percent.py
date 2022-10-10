@@ -12,8 +12,13 @@ import os
 
 #%% Load raw data
 
-print(os.getcwd())
-
+if os.getcwd() == 'E:\GitHubRepo':
+    os.chdir('Boston_House_Prices')
+elif os.getcwd() == 'E:\GitHubRepo\Boston_House_Prices':
+    pass
+    
+      
+      
 train0 = pd.read_csv("data/train.csv")
 test0 = pd.read_csv("data/test.csv")
 sample_submission = pd.read_csv("data/sample_submission.csv")
@@ -34,7 +39,7 @@ data1 = pd.concat([train1, test1], axis = 0).reset_index(drop=True)
 print(data1)
 print(target)
 
-print('Combine done')
+print('----------------------\n Combine done \n----------------------')
 
 #%% Cleaning - Ensure proper data type
 data2 = data1.copy()
@@ -44,11 +49,13 @@ print(data2.dtypes)
 
 data2['MSSubClass'] = data2['MSSubClass'].astype('str')
 
-print('Change type Done')
+print('----------------------\n Change type Done \n----------------------')
 
 #%% Cleaning - Missing Values
 
 data2.isnull().sum()
+
+
 
 #%% 
 
