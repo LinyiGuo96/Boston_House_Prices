@@ -55,6 +55,8 @@ print('----------------------\n Change type Done \n----------------------')
 
 data2.isnull().sum()
 
+data2.
+
 
 
 #%% 
